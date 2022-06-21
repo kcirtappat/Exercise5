@@ -1,0 +1,39 @@
+$bg-footer: #343a40;
+$bg-secondary: #6c757d;
+
+
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+.text-dark{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.carousel-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    position:absolute;
+    color: black;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    padding-bottom: 150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
