@@ -1,6 +1,7 @@
-$bg-footer: #343a40;
-$bg-secondary: #6c757d;
+$bg-primary: #198754;
 
+// @import "/node_modules/bootstrap/scss/functions";
+// @import "/node_modules/bootstrap/scss/variables";
 
 .carousel-item {
     height: 32rem;
@@ -8,20 +9,33 @@ $bg-secondary: #6c757d;
     color: white;
     position: relative;
 }
-.text-dark{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
+
+.cardbox {
+    background-color: #198754;
+    height: 100px;
 }
 
+.myContent p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    background-color: #c28049;
+}
+.text-links {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+.dt-color {
+    background-color: #43886a;
+}
 .carousel-container {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     position:absolute;
     color: black;
-    bottom: 50px;
+    bottom: 200px;
     left: 0;
     right: 0;
-    padding-bottom: 150px;
     text-align: center;
     text-transform: uppercase;
 }
