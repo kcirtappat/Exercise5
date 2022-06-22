@@ -1,15 +1,18 @@
-$bg-primary: #198754;
-
 // @import "/node_modules/bootstrap/scss/functions";
 // @import "/node_modules/bootstrap/scss/variables";
 
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .carousel-item {
     height: 32rem;
     background: #777;
     color: white;
     position: relative;
 }
-
+ul {
+    list-style-type: none;
+}
 .cardbox {
     background-color: #198754;
     height: 100px;
